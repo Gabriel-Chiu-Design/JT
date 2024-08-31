@@ -1,0 +1,33 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background: center center / cover url(../element/story/bg.png);
+}
+
+.cover img{
+    width: 240px;
+}
+
+.cover p{
+    text-align: center;
+    line-height: 140%;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    .cover img{
+        width: 400px;
+    }
+}
+
+@media (min-width:1280px) {
+    .cover img{
+        width: 500px;
+    }
+}
