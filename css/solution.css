@@ -27,9 +27,10 @@
 .grid.sm .category img{
     width: 100%;
     object-fit: cover;
+    transition: all ease-out 300ms;
 }
 
-.grid.sm .category img:hover{
+.grid.sm .category:hover img{
     cursor: pointer;
     transform: scale(1.1);
     transition: all ease-out 300ms;

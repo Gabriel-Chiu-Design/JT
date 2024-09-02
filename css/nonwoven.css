@@ -23,6 +23,7 @@
 .grid .category img{
     width: 100%;
     height: 100%;
+    transition: all ease-out 300ms;
 }
 
 .grid.sm .text{

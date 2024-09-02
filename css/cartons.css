@@ -1,6 +1,7 @@
 .container{
     max-width: 1240px;
     padding: 40px 16px;
+    opacity: 1;
 }
 
 h1{

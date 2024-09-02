@@ -22,6 +22,7 @@
 
 .grid.sm .category img{
     width: 100%;
+    transition: all ease-out 300ms;
 }
 
 .grid.sm .text{
@@ -63,6 +64,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all ease-out 300ms;
 }
 
 .grid.lg .category.h-rect, .grid.lg .row .box{
