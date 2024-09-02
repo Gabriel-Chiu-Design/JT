@@ -143,6 +143,7 @@ header li{
 header li a{
     color:#FFFFFF;
     opacity: 0.6;
+    transition: all ease-in 300ms;
 }
 
 header li a.active{
@@ -160,28 +161,18 @@ header li a:hover{
         padding: 20px;
     }
     header .logo{
-        width: 280px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
     header ul{
-        gap: 24px;
-    }
-    header li{
-        font-size: 16px;
+        gap: 48px;
     }
 }
 
 @media (min-width:1280px) {
     header{
-        padding:48px;
-    }
-    header .logo{
-        width: 320px;
+        padding: 24px 48px;
     }
     header ul{
-        gap: 24px;
-    }
-    header li{
-        font-size: 18px;
+        gap: 60px;
     }
 }
