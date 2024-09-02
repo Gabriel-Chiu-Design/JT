@@ -1,5 +1,6 @@
 .container{
     opacity: 0;
+    padding-bottom: 80px;
 }
 
 .container.active{
@@ -49,7 +50,6 @@
 .grid.lg{
     display: none;
     justify-content: center;
-    padding-bottom: 180px;
 }
 
 .grid.lg .upper, .grid.lg .lower{
