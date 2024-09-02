@@ -22,6 +22,7 @@ h1{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all ease-out 300ms;
 }
 
 .grid .box.text{
