@@ -24,10 +24,13 @@
     .cover img{
         width: 400px;
     }
+    .cover p{
+        line-height: 180%;
+        max-width: 840px;
+    }
+
 }
 
 @media (min-width:1280px) {
-    .cover img{
-        width: 500px;
-    }
+
 }
