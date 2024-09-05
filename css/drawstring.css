@@ -45,7 +45,7 @@
 }
 
 .grid.lg{
-    display:flex;
+    display:none;
     flex-direction: column;
     row-gap: 20px;
     max-width: 1240px;
@@ -110,6 +110,9 @@
 @media (min-width:768px) {
     .grid.sm{
         display: none;
+    }
+    .grid.lg{
+        display: flex;
     }
 }
 
