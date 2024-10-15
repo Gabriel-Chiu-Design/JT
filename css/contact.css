@@ -7,7 +7,7 @@
     width: 100%;
     height: 90vh;
     object-fit: cover;
-    background: center center / cover url(../element/contact-us/bg.png);
+    background: center center / cover url(../element/contact-us/bg.webp);
 }
 
 .info .logo{
